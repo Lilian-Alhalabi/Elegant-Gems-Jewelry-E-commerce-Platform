@@ -1,6 +1,6 @@
 # 💎 Elegant Gems - Jewelry E-commerce Platform
 
-A sophisticated, full-stack e-commerce web application designed for high-end jewelry retail. This project demonstrates a complete integration of frontend design and backend functionality.
+A sophisticated, full-stack e-commerce web application designed for high-end jewelry retail. This project demonstrates a complete integration of frontend aesthetics and backend functionality using **PHP** and **MySQL**.
 
 ## 🚀 Live Demo
 
@@ -13,8 +13,8 @@ https://github.com/user-attachments/assets/6674022a-eacf-4446-a62d-833768ef0503
 Experience the live website here:
 
 **[http://ElegantGems.gt.tc](http://ElegantGems.gt.tc)**
-Note: This Link may not work for 3 days
-
+> [!Note]
+> Link availability may vary based on server status)
 ---
 
 ## 🛠️ Technical Stack
@@ -30,10 +30,12 @@ Note: This Link may not work for 3 days
 ---
 
 ## ✨ Key Features
-* **Dynamic Product Catalog:** Products are fetched directly from the MySQL database.
-* **Responsive UI:** Fully optimized for desktops, tablets, and smartphones.
-* **Secure Connection:** Implements PHP Data Objects or MySQLi for database interactions.
-* **User Experience:** Clean, luxurious design tailored for the jewelry industry.
+
+* **Premium Product Display:** A curated gallery of luxury jewelry with detailed pricing and high-quality imagery.
+* **Session-Based Shopping Cart:** Users can add multiple items to their cart. The selections are tracked and preserved across different pages using **PHP Sessions**.
+* **Seamless Order System:** A specialized checkout flow that collects customer data and securely stores order details in the database.
+* **Owner Dashboard:** A secure administrative interface that allows the store owner to monitor, track, and manage incoming customer orders in real-time.
+* **Integrated Contact System:** A functional communication bridge where visitor inquiries are captured and stored in the database for customer support.
 
 ---
 
@@ -49,11 +51,13 @@ Note: This Link may not work for 3 days
 
 
 
-## 🗄️ Database Schema
-The project uses a relational database structure:
-1.  **Products Table:** Stores names, descriptions, prices, and image paths.
-2.  **Categories Table:** For organizing jewelry types (Rings, Necklaces, etc.).
-3.  **Orders/Users:** (Optional) Managed via PHP sessions.
+## 🗄️ Database Architecture
+
+The system is powered by a relational database named `accessory_store`, consisting of three primary tables:
+
+1.  **Products Table:** Contains the catalog data, including names, descriptions, and price points.
+2.  **Orders Table:** Records successful transactions, including customer contact info, product names, quantities, and shipping addresses.
+3.  **Messages Table:** Dedicated to storing inquiries and feedback received through the "Contact Us" portal.
 
 ---
 
@@ -66,6 +70,8 @@ To run this project on your local machine:
 
 ---
 
-## 📧 Contact
-Lilian Alhalabi - [Liliyanalhalabi@gmail.com]
-Project Link: (https://github.com/Lilian-Alhalabi/Elegant-Gems---Jewelry-E-commerce-Platform/edit/main/README.md)
+## 📧 Contact & Support
+
+* **Developer:** Lilian Alhalabi
+* **Email:** [Liliyanalhalabi@gmail.com]
+* **GitHub Repository:** [Elegant Gems Project Link](https://github.com/Lilian-Alhalabi/Elegant-Gems---Jewelry-E-commerce-Platform)
