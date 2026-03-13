@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="product.php">Collection</a></li>
+            <li><a href="product.html">Collection</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="cart.php">Cart</a></li>
             <li><a href="admin.php">Dashboard</a></li>
