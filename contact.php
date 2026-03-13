@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <li><a href="product.html">Collection</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="cart.php">Cart</a></li>
-            <li><a href="admin.php">Dashboard</a></li>
+            <li><a href="admin.html">Dashboard</a></li>
         </ul>
     </nav>
 </header>
