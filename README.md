@@ -4,8 +4,14 @@ A sophisticated, full-stack e-commerce web application designed for high-end jew
 
 ## 🚀 Live Demo
 
+
+https://github.com/user-attachments/assets/6674022a-eacf-4446-a62d-833768ef0503
+
+
 Experience the live website here:
+
 **[http://ElegantGems.gt.tc](http://ElegantGems.gt.tc)**
+Note: This Link may not work for 3 days
 
 ---
 
