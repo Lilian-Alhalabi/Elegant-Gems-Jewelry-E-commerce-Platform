@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = ""; 
-$dbname = "accessory_store"; 
+$host = "sql113.infinityfree.com";
+$user = "if0_41376740";
+$pass = "********"; 
+$dbname = "if0_41376740_XXX"; 
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
