@@ -1,18 +1,15 @@
 <?php
 session_start();
-// 1. تصحيح اسم الملف إلى connect.php
 include 'db.php'; 
 
 $order_success = false;
 $error_msg = "";
 
 if (isset($_POST['submit_order']) && !empty($_SESSION['cart'])) {
-    // تأمين المدخلات
     $name = $conn->real_escape_string($_POST['name']);
     $email = $conn->real_escape_string($_POST['email']);
     $address = $conn->real_escape_string($_POST['address']);
 
-    // نستخدم "Transaction" لضمان تخزين كل المنتجات معاً
     $conn->begin_transaction();
 
     try {
@@ -20,7 +17,6 @@ if (isset($_POST['submit_order']) && !empty($_SESSION['cart'])) {
             $product = $conn->real_escape_string($item['name']);
             $qty = (int)$item['qty'];
             
-            // 2. التأكد من كتابة جملة SQL بشكل صحيح
             $sql = "INSERT INTO orders (name, email, product, quantity, address) 
                     VALUES ('$name', '$email', '$product', $qty, '$address')";
             
@@ -31,7 +27,7 @@ if (isset($_POST['submit_order']) && !empty($_SESSION['cart'])) {
         
         $conn->commit();
         $order_success = true;
-        unset($_SESSION['cart']); // تفريغ السلة فقط عند النجاح
+        unset($_SESSION['cart']); 
     } catch (Exception $e) {
         $conn->rollback();
         $error_msg = "حدث خطأ أثناء معالجة الطلب: " . $e->getMessage();
@@ -52,7 +48,7 @@ if (isset($_POST['submit_order']) && !empty($_SESSION['cart'])) {
     <h1>Elegant Gems</h1>
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="product.php">Collection</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="cart.php">Cart</a></li>
