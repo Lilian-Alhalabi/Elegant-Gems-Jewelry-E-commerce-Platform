@@ -7,6 +7,8 @@ A sophisticated, full-stack e-commerce web application designed for high-end jew
 
 https://github.com/user-attachments/assets/6674022a-eacf-4446-a62d-833768ef0503
 
+> [!IMPORTANT]
+> **Note on Functionality:** Since GitHub is a static hosting service, the backend features (PHP & MySQL) such as the **Contact Form**, **Shopping Cart**, and **Admin Dashboard** require a live PHP server to function. If the live link is down, these features can be explored via the screenshots and code provided.
 
 Experience the live website here:
 
