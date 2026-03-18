@@ -29,6 +29,38 @@ header {
     top: 0;
     z-index: 1000;
 }
+/* تنسيق القائمة العام */
+.promise-list {
+    list-style: none;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.promise-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #333; /* لون النص */
+}
+
+/* تنسيق الأيقونات */
+.promise-list li i {
+    color: #D4AF37; /* لون ذهبي Metallic */
+    width: 30px; /* توحيد العرض لترتيب النص عمودياً */
+    font-size: 1.2rem;
+    margin-right: 12px;
+    text-align: center;
+    /* إضافة ظل خفيف للأيقونة لإعطائها عمق */
+    filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1));
+}
+
+/* تأثير عند تمرير الماوس (اختياري) */
+.promise-list li:hover i {
+    color: #B8860B;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
 header h1 {
     letter-spacing: 2px;
