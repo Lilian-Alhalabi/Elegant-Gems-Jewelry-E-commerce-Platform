@@ -105,12 +105,20 @@ if (isset($_SESSION['cart']) && is_array($_SESSION['cart'])) {
         <div class="home-text">
             <h2>Elevate Your Style</h2>
             <p>Experience the pinnacle of craftsmanship with our exclusive jewelry collection. Every piece tells a story of elegance and brilliance.</p>
-            
             <ul class="promise-list">
-                <li>✨ Premium Gold</li>
-                <li>💎 Natural Stones</li>
-                <li>🌍 Global Delivery</li>
-            </ul>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="promise-icon"><path d="M6 3h12l4 6-10 13L2 9z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg>
+        <span>Premium Gold</span>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="promise-icon"><path d="m21 7-9-4-9 4V17l9 4 9-4V7z"></path><path d="m12 21 8-4.5V10.5L12 15l-8-4.5V16.5l8 4.5Z"></path><path d="m12 15 9-5.1"></path><path d="m12 15-9-5.1"></path><path d="m12 3v12"></path></svg>
+        <span>Natural Stones</span>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="promise-icon"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+        <span>Global Delivery</span>
+    </li>
+</ul>
 
             <a href="product.php" class="shop-btn">Explore Collection</a>
         </div>
