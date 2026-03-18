@@ -2,10 +2,13 @@
 
 A sophisticated, full-stack e-commerce web application designed for high-end jewelry retail. This project demonstrates a complete integration of frontend aesthetics and backend functionality using **PHP** and **MySQL**.
 
+
+
+
 ##  Live Demo
 
 
-https://github.com/user-attachments/assets/6674022a-eacf-4446-a62d-833768ef0503
+https://github.com/user-attachments/assets/42254832-6bfd-4c5b-af5b-3e66e201a051
 
 > [!IMPORTANT]
 > **Note on Functionality:** Since GitHub is a static hosting service, the backend features (PHP & MySQL) such as the **Contact Form**, **Shopping Cart**, and **Admin Dashboard** require a live PHP server to function. If the live link is down, these features can be explored via the screenshots and code provided.
