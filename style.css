@@ -13,22 +13,6 @@ body {
     line-height: 1.6;
     padding-bottom: 100px; 
 }
-
-/* ===== Header & Fixed Navigation ===== */
-
-header {
-    background-color: #043927;
-    color: #fffdf5;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 4px solid #cd7f32;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    
-
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
 /* تنسيق القائمة العام */
 .promise-list {
     list-style: none;
@@ -61,6 +45,23 @@ header {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
+
+/* ===== Header & Fixed Navigation ===== */
+
+header {
+    background-color: #043927;
+    color: #fffdf5;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #cd7f32;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 
 header h1 {
     letter-spacing: 2px;
