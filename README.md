@@ -8,7 +8,10 @@ A sophisticated, full-stack e-commerce web application designed for high-end jew
 ##  Live Demo
 
 
-https://github.com/user-attachments/assets/42254832-6bfd-4c5b-af5b-3e66e201a051
+
+https://github.com/user-attachments/assets/a6575d10-95b8-423b-a23e-9fb635e0e843
+
+
 
 > [!IMPORTANT]
 > **Note on Functionality:** Since GitHub is a static hosting service, the backend features (PHP & MySQL) such as the **Contact Form**, **Shopping Cart**, and **Admin Dashboard** require a live PHP server to function. If the live link is down, these features can be explored via the screenshots and code provided.
@@ -49,7 +52,8 @@ Experience the live website here:
 |:---:|:---:|
 | <img width="492" height="443" alt="image" src="https://github.com/user-attachments/assets/d0eccc9c-f55b-41b7-8f5d-d74816376aa7" />| <img src="https://github.com/user-attachments/assets/774a91c2-a716-4558-81f6-fc3baba0521a" width="100%" /> |
 | <img src="https://github.com/user-attachments/assets/d9102ed0-b20b-4646-ac59-a3e37e04b4c7" width="100%" /> | <img src="https://github.com/user-attachments/assets/1fb8831d-4b56-4d80-bbab-441a60b0146c" width="100%" /> |
-| <img src="https://github.com/user-attachments/assets/944446ea-a85c-4c45-9fe9-86b06ac51b48" width="100%" /> | <img src=<img width="587" height="439" alt="image" src="https://github.com/user-attachments/assets/b9bbcb8c-5b24-4b50-bdc0-fbec746877e7" />
+| <img src=<img width="632" height="443" alt="image" src="https://github.com/user-attachments/assets/2e9e5382-d204-4f11-bde2-d629474bbb68" />
+ width="100%" /> | <img src=<img width="587" height="439" alt="image" src="https://github.com/user-attachments/assets/b9bbcb8c-5b24-4b50-bdc0-fbec746877e7" />
  width="100%" /> |
 | <img src="https://github.com/user-attachments/assets/c780309a-5b6d-4cee-94d4-f9c981882b61" width="100%" /> | |
 
