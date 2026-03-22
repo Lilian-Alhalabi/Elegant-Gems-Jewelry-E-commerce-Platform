@@ -53,7 +53,6 @@ Experience the live website here:
 | <img width="492" height="443" alt="image" src="https://github.com/user-attachments/assets/d0eccc9c-f55b-41b7-8f5d-d74816376aa7" />| <img src="https://github.com/user-attachments/assets/774a91c2-a716-4558-81f6-fc3baba0521a" width="100%" /> |
 | <img src="https://github.com/user-attachments/assets/d9102ed0-b20b-4646-ac59-a3e37e04b4c7" width="100%" /> | <img src="https://github.com/user-attachments/assets/1fb8831d-4b56-4d80-bbab-441a60b0146c" width="100%" /> |
 | <img src=<img width="632" height="443" alt="image" src="https://github.com/user-attachments/assets/2e9e5382-d204-4f11-bde2-d629474bbb68" /> | <img src=<img width="587" height="439" alt="image" src="https://github.com/user-attachments/assets/b9bbcb8c-5b24-4b50-bdc0-fbec746877e7" />
- width="100%" /> | 
 | <img src="https://github.com/user-attachments/assets/c780309a-5b6d-4cee-94d4-f9c981882b61" width="100%" /> | |
 
 
